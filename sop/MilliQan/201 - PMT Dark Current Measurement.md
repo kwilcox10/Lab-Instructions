@@ -2,7 +2,7 @@
 
 Author: Caleb Fangmeier
 
-Last Edited: September 28, 2021
+Last Edited: November 4th, 2021
 
 ## Abstract
 
@@ -25,7 +25,7 @@ Users must complete a short training program with either Caleb or another traine
 ### Connecting the PMT
 
 
-  1. First, ensure that the 5V supplies (PS 1, and PS 2), and the HV Supply are disabled. For the 5V supplies, they can either be powered off or have their output disabled via pressing the "Output" button until the light turns off. The HV Supply can either be powered off or have its output disabled by switching the toggle labeled "High Voltage" to "STBY/RESET".
+  1. First, ensure that the 5V supplies (PS 1, and PS 2) and the HV Supply are disabled. For the 5V supplies, they can either be powered off or have their output disabled via pressing the "Output" button until the light turns off. The HV Supply can either be powered off or have its output disabled by switching the toggle labeled "High Voltage" to "STBY/RESET".
   2. Plug in the SHV cable to the large coaxial plug, the SMA cable to the output labeled `OUT A` and the ribbon cable to the matching header as shown below ![]().
   3. Carefully place the assembly laying down inside the dark box. Close the lid.
 
@@ -37,10 +37,10 @@ Users must complete a short training program with either Caleb or another traine
 ![PXL_20210928_195956336](https://user-images.githubusercontent.com/2569566/135174308-ae85a26f-3327-4b2a-a24e-4e6dc872343e.jpg)
 
   1. If the 5V supplies are off, turn them on with the black toggle-switches on the bottom of their front panels.
-  2. Enable the output of PS 1, wait for a couple seconds and then enable PS 2. Check that they both read 5V +- 2mV. If they don't, turn them off and use the top dial to adjust them to 5V.
+  2. Enable the output of PS 1, wait for a couple seconds and then enable PS 2. Check that they both read 5V +- 2mV. If they don't, disable their output and use the top dial to adjust them to 5V.
   3. If the HV suppply is off, turn it on by first ensuring that the toggle-switch labeled "HIGH VOLTAGE" is switched to "STBY/RESET" and then switch the toggle labeled "POWER" to on.
-  4. Wait ~15s for the white light indicating "STBY/RESET" to turn on. Then use the dials to select your chosen voltage (by default, we run at -1450V). Ensure that the rightmost dial is set to negative polarity.
-  5. Turn on the HV by switching the toggle-switch labeled "HIGH VOLTAGE" to ON.
+  4. Use the number interface to key in your chosen voltage (by default, we run at 1450V). Hit the enter key when you have inputted the desired voltage.
+  5. Turn on the HV by holding the toggle-switch labeled "HIGH VOLTAGE" in the upward direction for approximately 1 second. 
 
 
 ### Taking data
@@ -65,5 +65,5 @@ Users must complete a short training program with either Caleb or another traine
 
 Shutting down the system is simply a matter of turning off the power supplies.
 
-  1. Turn off the HV supply by first disabling the output using the "HIGH VOLTAGE" toggle and then turning it off with the "POWER" toggle.
+  1. Turn off the HV supply by first disabling the output using the "HIGH VOLTAGE" toggle and then turning it off with the "POWER" button.
   2. The 5V supplies can be turned off by first disabling the output and then switching the power switch at the bottom of the front panel. They will emit a beeping sound for ~5-10s before turning off - this is normal.
